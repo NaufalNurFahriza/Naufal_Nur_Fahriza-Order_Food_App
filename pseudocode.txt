@@ -1,0 +1,11 @@
+READ and WRITE "lokasi" with string
+READ and WRITE "daftar lokasi restoran" with string[]
+READ and WRITE "restoran terpilih" with Boolean
+
+READ AND WRITE "pesanan" with string
+READ AND WRITE "daftar makanan" with string[]
+READ and WRITE "pesanan terpilih" with Boolean
+
+READ AND WRITE "Total pembayaran" with string
+READ AND WRITE "metode pembayaran" with string[]
+READ AND WRITE "pembayaran" with Boolean
