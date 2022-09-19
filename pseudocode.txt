@@ -9,3 +9,11 @@ READ and WRITE "pesanan terpilih" with Boolean
 READ AND WRITE "Total pembayaran" with string
 READ AND WRITE "metode pembayaran" with string[]
 READ AND WRITE "pembayaran" with Boolean
+
+READ and WRITE "lokasi" ""
+STORE "daftar lokasi restoran" with [Domino Pizza, Pizza Hut]
+WHILE "restoran terpilih" = false
+    STORE "lokasi" WITH "Domino Pizza"
+    STORE "restoran terpilih" WITH true
+END
+DISPLAY "restoran terpilih"
