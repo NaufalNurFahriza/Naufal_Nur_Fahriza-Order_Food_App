@@ -17,3 +17,11 @@ WHILE "restoran terpilih" = false
     STORE "restoran terpilih" WITH true
 END
 DISPLAY "restoran terpilih"
+
+READ and WRITE "pesanan" ""
+STORE "daftar makanan" with [Pizza Margherita, Pizza Pepperoni, Beef Lasagna]
+WHILE "pesanan terpilih" = false
+    STORE "pesanan" WITH "Pizza Margherita"
+    STORE "pesanan terpilih" WITH true
+END
+DISPLAY "pesanan terpilih"
